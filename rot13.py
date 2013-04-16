@@ -19,8 +19,7 @@ def rot13(string):
     abc = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     arrAbs = strSplit(abc);
     char = cadena = ''
-    metodo = (26 / 2)
-    
+    metodo = 13
     for char in strSplit(string):
     	posChr = abc.find(char.upper())
     	if posChr > 0:
